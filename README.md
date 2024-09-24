@@ -8,7 +8,7 @@
 - [Resultados](#resultados)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
-- [Enlaces](#enlaces)
+- [Dashboard](#dashboard)
 
 ## Objetivo
 Diseñar e implementar un sistema ETL eficiente que permita a Superstore gestionar grandes volúmenes de datos dispersos, optimizando el almacenamiento y la estructura de los datos para facilitar su análisis. A través de la creación de un sistema jerárquico con tablas de hechos y dimensiones.
@@ -224,4 +224,6 @@ El pipeline asegura la integridad referencial al actualizar las dimensiones ante
 - **Escalabilidad del Pipeline**: A medida que los volúmenes de datos crezcan, puedes explorar el uso de Dataflow para el procesamiento en streaming, lo que te permitirá manejar datos en tiempo real, adaptando el pipeline para análisis en vivo.
 - **Optimización del Almacenamiento**: Revisa periódicamente las tablas de hechos y dimensiones para eliminar registros innecesarios o consolidar datos históricos, evitando que los costos de almacenamiento en BigQuery crezcan desproporcionadamente.
 
+## Dashboard
+[Ventas-Superstore](https://lookerstudio.google.com/reporting/031a155d-6e2f-442c-994d-9a260126ade3)
 
