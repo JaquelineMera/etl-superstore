@@ -1,0 +1,31 @@
+--Query nulos (No hay nulos)
+SELECT
+  COUNTIF(category IS NULL) AS null_category,
+  COUNTIF(city IS NULL) AS null_city,
+  COUNTIF(country IS NULL) AS null_country,
+  COUNTIF(customer_ID IS NULL) AS null_customer_ID,
+  COUNTIF(customer_name IS NULL) AS null_customer_name,
+  COUNTIF(discount IS NULL) AS null_discount,
+  COUNTIF(market IS NULL) AS null_market,
+  COUNTIF(unknown IS NULL) AS null_unknown,
+  COUNTIF(order_date IS NULL) AS null_order_date,
+  COUNTIF(order_id IS NULL) AS null_order_id,
+  COUNTIF(order_priority IS NULL) AS null_order_priority,
+  COUNTIF(product_id IS NULL) AS null_product_id,
+  COUNTIF(product_name IS NULL) AS null_product_name,
+  COUNTIF(profit IS NULL) AS null_profit,
+  COUNTIF(quantity IS NULL) AS null_quantity,
+  COUNTIF(region IS NULL) AS null_region,
+  COUNTIF(row_id IS NULL) AS null_row_id,
+  COUNTIF(sales IS NULL) AS null_sales,
+  COUNTIF(segment IS NULL) AS null_segment,
+  COUNTIF(ship_date IS NULL) AS null_ship_date,
+  COUNTIF(ship_mode IS NULL) AS null_ship_mode,
+  COUNTIF(shipping_cost IS NULL) AS null_shipping_cost,
+  COUNTIF(state IS NULL) AS null_state,
+  COUNTIF(sub_category IS NULL) AS null_sub_category,
+  COUNTIF(year IS NULL) AS null_year,
+  COUNTIF(market2 IS NULL) AS null_market2,
+  COUNTIF(weeknum IS NULL) AS null_weeknum
+FROM
+  `proyecto-5-etl-superstore.dataset_superstore.superstore`;
